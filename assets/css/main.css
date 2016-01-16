@@ -1838,18 +1838,18 @@
 		h1.major.cont:after, h2.major.cont:after, h3.major.cont:after, h4.major.cont:after, h5.major.cont:after, h6.major.cont:after {
 			right: -3px;
 			height: 3px;
-			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#484E5D), to(transparent));
-			background-image: -webkit-linear-gradient(left, #484E5D, transparent);
-			background-image: -moz-linear-gradient(left, #484E5D, transparent);
-			background-image: -o-linear-gradient(left, #484E5D, transparent);
+			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#2E3141), to(transparent));
+			background-image: -webkit-linear-gradient(left, #2E3141, transparent);
+			background-image: -moz-linear-gradient(left, #2E3141, transparent);
+			background-image: -o-linear-gradient(left, #2E3141, transparent);
 		}
 		h1.major.cont.alt:after, h2.major.cont.alt:after, h3.major.cont.alt:after, h4.major.cont.alt:after, h5.major.cont.alt:after, h6.major.cont.alt:after {
 			right: -3px;
 			height: 3px;
-			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#484E5D));
-			background-image: -webkit-linear-gradient(left, transparent, #484E5D);
-			background-image: -moz-linear-gradient(left, transparent, #484E5D);
-			background-image: -o-linear-gradient(left, transparent, #484E5D);
+			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#2E3141));
+			background-image: -webkit-linear-gradient(left, transparent, #2E3141);
+			background-image: -moz-linear-gradient(left, transparent, #2E3141);
+			background-image: -o-linear-gradient(left, transparent, #2E3141);
 		}
 	h2 {
 		font-size: 1.2em;
