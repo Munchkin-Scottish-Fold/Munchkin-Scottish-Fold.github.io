@@ -1795,15 +1795,62 @@
 			  bottom: -3px;
 			  left: -3px;
 		}
-		h1.major:after, h2.major:after, h3.major:after, h4.major:after, h5.major:after, h6.major:after {
+		
+		/* portfolio major color */
+		
+		h1.major.port:after, h2.major.port:after, h3.major.port:after, h4.major.port:after, h5.major.port:after, h6.major.port:after {
 			right: -3px;
 			height: 3px;
-			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#000), to(transparent));
-			background-image: -webkit-linear-gradient(left, #000, transparent);
-			background-image: -moz-linear-gradient(left, #000, transparent);
-			background-image: -o-linear-gradient(left, #000, transparent);
+			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#2D3445), to(transparent));
+			background-image: -webkit-linear-gradient(left, #2D3445, transparent);
+			background-image: -moz-linear-gradient(left, #2D3445, transparent);
+			background-image: -o-linear-gradient(left, #2D3445, transparent);
 		}
-
+		h1.major.port.alt:after, h2.major.port.alt:after, h3.major.port.alt:after, h4.major.port.alt:after, h5.major.port.alt:after, h6.major.port.alt:after {
+			right: -3px;
+			height: 3px;
+			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#2D3445));
+			background-image: -webkit-linear-gradient(left, transparent, #2D3445);
+			background-image: -moz-linear-gradient(left, transparent, #2D3445);
+			background-image: -o-linear-gradient(left, transparent, #2D3445);
+		}
+		
+		/* resume major color */
+		
+		h1.major.res:after, h2.major.res:after, h3.major.res:after, h4.major.res:after, h5.major.res:after, h6.major.res:after {
+			right: -3px;
+			height: 3px;
+			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#4C5C96), to(transparent));
+			background-image: -webkit-linear-gradient(left, #4C5C96, transparent);
+			background-image: -moz-linear-gradient(left, #4C5C96, transparent);
+			background-image: -o-linear-gradient(left, #4C5C96, transparent);
+		}
+		h1.major.res.alt:after, h2.major.res.alt:after, h3.major.res.alt:after, h4.major.res.alt:after, h5.major.res.alt:after, h6.major.res.alt:after {
+			right: -3px;
+			height: 3px;
+			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#4C5C96));
+			background-image: -webkit-linear-gradient(left, transparent, #4C5C96);
+			background-image: -moz-linear-gradient(left, transparent, #4C5C96);
+			background-image: -o-linear-gradient(left, transparent, #4C5C96);
+		}
+		
+		/* contact major color */
+		h1.major.cont:after, h2.major.cont:after, h3.major.cont:after, h4.major.cont:after, h5.major.cont:after, h6.major.cont:after {
+			right: -3px;
+			height: 3px;
+			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#484E5D), to(transparent));
+			background-image: -webkit-linear-gradient(left, #484E5D, transparent);
+			background-image: -moz-linear-gradient(left, #484E5D, transparent);
+			background-image: -o-linear-gradient(left, #484E5D, transparent);
+		}
+		h1.major.cont.alt:after, h2.major.cont.alt:after, h3.major.cont.alt:after, h4.major.cont.alt:after, h5.major.cont.alt:after, h6.major.cont.alt:after {
+			right: -3px;
+			height: 3px;
+			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(#484E5D));
+			background-image: -webkit-linear-gradient(left, transparent, #484E5D);
+			background-image: -moz-linear-gradient(left, transparent, #484E5D);
+			background-image: -o-linear-gradient(left, transparent, #484E5D);
+		}
 	h2 {
 		font-size: 1.2em;
 	}
