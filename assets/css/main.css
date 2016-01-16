@@ -1787,7 +1787,21 @@
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			position: relative;
+		}
+		h1.major:before, h2.major:before, h3.major:before, h4.major:before, h5.major:before, h6.major:before, h1.major:after, h2.major:after, h3.major:after, h4.major:after, h5.major:after, h6.major:after {
+			content: "";
+			  position: absolute;
+			  bottom: -3px;
+			  left: -3px;
+		}
+		h1.major:after, h2.major:after, h3.major:after, h4.major:after, h5.major:after, h6.major:after {
+			right: -3px;
+			height: 3px;
+			background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#000), to(transparent));
+			background-image: -webkit-linear-gradient(left, #000, transparent);
+			background-image: -moz-linear-gradient(left, #000, transparent);
+			background-image: -o-linear-gradient(left, #000, transparent);
 		}
 
 	h2 {
