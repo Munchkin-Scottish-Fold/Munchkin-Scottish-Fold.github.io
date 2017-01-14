@@ -2335,6 +2335,14 @@
 			padding-top: 8em;
 		}
 
+		#resume h1 {
+			margin: 0 0 1.5em 0;
+		}
+
+		#resume h2 {
+			margin : 2em 0 1em 0;
+		}
+
 /* Image */
 
 	.image {
