@@ -3365,3 +3365,19 @@
 			}
 
 		}
+
+	.presentation {
+		margin: 0 8em 0 8em;
+	}
+
+	@media screen and (max-width: 736px) {
+		.presentation {
+			margin: 0;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.presentation {
+			margin: 0;
+		}
+	}
